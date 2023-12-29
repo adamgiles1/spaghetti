@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+</head>
+<body>
+  <h1>Turn any lyrics into Mom's Spaghetti</h1>
+  <p>Just paste the lyrics into the input. Don't like the result? Just hit the Spaghettify button again and it will redo the song</p>
+  <p>Now with customizable frequency!</p>
+  <form id="theform">
+      <textarea name="textarea1" cols="40" rows="5" type="text" id="input" Value="Put your lyrics here"></textarea>
+      <br>
+      <label>Tasteful spaghetti </label>
+      <input type="radio" name="spa-quan" id="norm-spaghetti" value="Norm" checked="checked">
+      <br>
+      <label>More spaghetti</label>
+      <input type="radio" name="spa-quan" id="more-spaghetti" value="More">
+      <br>
+      <label>Too much spaghetti </label>
+      <input type="radio" name="spa-quan" id="too-spaghetti" value="Much">
+      <br>
+      <label>SPA...GHE...TTI</label>
+      <input type="radio" name="spa-quan" id="dear-god" value="AAH">
+      <br>
+      <input type="submit" value="Spaghettify">
+  </form>
+  <br>
+  <p id="output">Output</p>
+</body>
+<script src="js.js"></script>
+
+</html>
